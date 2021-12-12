@@ -19,3 +19,8 @@ for i in range(1, number + 1):
   for j in range(i):
     string.append(i)
   print(' '.join(map(str, string)))
+
+# Нюанс: данный вариант программы предназначен
+# для однозначных чисел
+#
+# Вводите число от 1 до 9
